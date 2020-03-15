@@ -96,3 +96,37 @@ knitr::kable(head(cars),
 ## Insert an equation
 
 $$ Y = \beta_0 + \beta_1x $$
+
+## Inserting images
+
+Here is an image inserted
+
+![Sun Star](sunstar.png)
+
+Here is the R logo
+
+![R Logo](https://www.r-project.org/logo/Rlogo.svg)
+
+<!-- Note web link images will not appear in PDF or Word knitted files -->
+
+##To view gif or videos
+
+![sunstar gif](sunstar/sunstar.gif)
+
+And now for a video too:
+
+![sunstart mp4](sunstar/sunstar.mp4)
+<!-- Note the video doesn't play in the RStudio preview pane -->
+<!-- gifs and videos don't appear in Word or PDFs -->
+
+## Footnotes
+
+I want to add a footnote here [^1] and another one [^longnote]
+
+I can also add any inline footnote ^[Inline notes are easier too write since you don't have to pick an identifier and move down to type the note]
+
+[^1]: Here is the first footnote
+[^longnote]: Here's one with multiple blocks.
+
+
+
